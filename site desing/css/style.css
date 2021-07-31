@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navebar style */
+.nave{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 30px;
+    
+}
+.logo {
+    margin-right: auto;
+    margin-left: 65px;
+}
+.logo img{
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+}
+.home-nave a{
+   padding: 15px;
+   text-decoration: dashed;
+   color: black;
+   font-weight: bold;
+}
+.home-nave a:hover{
+    padding: 15px;
+    text-decoration: dashed;
+    color: rgb(88, 226, 203);
+    font-weight: bold;
+ }
+.nave-btn{
+    margin-left: auto;
+    margin-right: 55px;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#login{
+    background-color: white;
+    border: none;
+    margin-right: 7px;
+    font-weight: bold;
+}
+#login:hover{
+    background-color: white;
+    border: none;
+    margin-right: 7px;
+    color: rgb(88, 226, 203);
+    font-weight: bold;
+}
+#tryit{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 9px 22px;
+    font-weight: bold;
+    border: none;
+}
+#tryit:hover{
+    background-color: rgb(88, 226, 203);
+    color: white;
+    border-radius: 15px;
+    padding: 9px 22px;
+    cursor: pointer;
+    font-weight: bold;
+}
+/* main content style */
+.content{
+    padding: 0px 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.con{
+    margin-left: 55px;
+    padding-top: 50px;
+}
+.con h1{
+    font-size: 45px;
+    font-weight: bolder;
+    line-height: 53px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.con p{
+    font-weight: lighter;
+    padding-top: 20px;
+    line-height: 25px;
+}
+.con-btn{
+    padding-top: 33px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+#get{
+     padding: 9px 28px;
+     line-height: 25px;
+     background-color: #519471;
+     color: white;
+     border-radius: 20px;
+     border: none;
+     cursor: pointer
+ }
+ #get:hover{
+     padding: 5px 28px;
+     line-height: 25px;
+     background-color: black;
+     color: white;
+     border-radius: 20px;
+     cursor: pointer;
+ }
+.cont-img img{
+    height: 500px;
+    width: 650px;
+    margin-left: 70px;
+}
+/* footer stle */
+.footer{
+    margin-top: -40px;
+    padding: 50px 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.footer img{
+    opacity: 30%;
+    width: 100px;
+    height: 30px;
+}
+.footer img:hover{
+    opacity: 80%;
+    width: 100px;
+    height: 30px;
+}
